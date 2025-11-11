@@ -4,23 +4,23 @@ import { ImpactOSLogo } from "@public/impactOS-logo";
 import { AccessTechLogo } from "@/components/AccessTechLogo";
 import { AMF1Logo } from "@/components/AMF1Logo";
 import { ChatBubbleLeftRightIcon, GlobeEuropeAfricaIcon, LightBulbIcon, PuzzlePieceIcon, ScaleIcon, SparklesIcon, UserGroupIcon } from "@heroicons/react/24/solid";
-import { Gavel } from "lucide-react";
+import { Gavel, Hotel, PawPrint } from "lucide-react";
 import { HandshakeIcon } from 'lucide-react';
 import { CubeTransparentIcon, WrenchScrewdriverIcon } from "@heroicons/react/24/outline";
  
 
 export const RESUME_DATA = {
-  name: "Ben Cheesebrough",
-  initials: "BTC",
-  location: "London, UK",
-  about: "B.Sc. Artificial Intelligence and Computer Science Student",
+  name: "Sofia Norman Polacios",
+  initials: "SNP",
+  location: "Madrid, Spain",
+  about: "B.Sc. Vetinary Medicine",
   summary:
-    "Ambitious AI student with hands-on experience across tech, finance, and data-driven digital marketing growth strategies, fueled by a passion for tech, finance, investment and entrepreneurship. Completed internships with prominent organizations such as Aston Martin F1, Fiera Real Estate and Create Group. Founded a prop tech company in the Kingdom of Saudi Arabia during a gap year, connecting with key industry leaders.",
+    "Ambitious Vetinary Medicine student with hands-on experience in both vetinary clinics and the hospitality industry.",
   avatarUrl: "/BenCVPhoto.JPG",
   personalWebsiteUrl: "https://bencheesebrough.com",
   resumeUrl: BenCheesebroughCV,
   contact: {
-    email: "ben.cheesebrough@gmail.com",
+    email: "[email]",
     social: [
       // {
       //   name: "GitHub",
@@ -41,45 +41,25 @@ export const RESUME_DATA = {
   },
   achievements: [
     {
-      title: "Start up Establishment in KSA",
+      title: "Vetinary Clinic in Madrid",
       icon: <LightBulbIcon className="size-4" />,
       content: "Successfully set up a fully foreign- owned prop-tech company in Saudi Arabia with endorsement from PIF (Saudi's sovereign wealth fund) accelerators."
     },
     {
-      title: "Strategic Industry Engagement",
+      title: "The Edition - Madrid (Marriott)",
       icon: <ChatBubbleLeftRightIcon className="size-4" />,
       content: "Engaged in high-level discussions with influential industry leaders in Saudi Arabia to advance prop-tech solutions."
     },
     {
-      title: "Legal & Administrative Leadership",
+      title: "Vetinary Clinic - Milton Keynes",
       icon: <ScaleIcon className="size-4" />,
       content: "Developed shareholder agreements and other essential legal documents to secure company structure and ensure compliance."
-    },
-    {
-      title: "High-Caliber Recruitment",
-      icon: <UserGroupIcon  className="size-4" />,
-      content: "Recruited team members from top UK universities, ensuring a strong foundation of skilled professionals."
-    },
-    {
-      title: "Collaborative Innovation in F1",
-      icon: <PuzzlePieceIcon className="size-4" />,
-      content: "Supported Aston Martin’s Web3 initiatives by creating strategic presentations and research for senior executives, enhancing digital strategy in motorsports."
-    },
-    {
-      title: "Insight into Asset Management Fintech",
-      icon: <CubeTransparentIcon className="size-4" />,
-      content: "At Fiera Capital, worked with the digital team on internal tools, gaining a comprehensive view of fintech’s role in fund management."
-    },
-    {
-      title: "Digital Strategy for MENA",
-      icon: <GlobeEuropeAfricaIcon className="size-4" />,
-      content: "Contributed to content strategies at Create Group for leading clients across the Middle East, with hands-on experience in campaign planning and analytics."
     },
   ],
   education: [
     {
-      school: "University of Birmingham",
-      title: "B.Sc. Artificial Intelligence and Computer Science",
+      school: "UAX",
+      title: "B.Sc. Vetinary Medicine",
       logo: "/UoB-logo.png",
       location: "Birmingham, UK",
       grades: ["2nd Year"],
@@ -87,7 +67,7 @@ export const RESUME_DATA = {
       end: "2027",
     },
     {
-      school: "Cheltenham College",
+      school: "[School]",
       logo: "/CC-logo.png",
       title: "A-Levels",
       grades: ["Mathematics: A", "Computer Science: A", "Physics: A"],
@@ -96,7 +76,7 @@ export const RESUME_DATA = {
       end: "2023",
     },
     {
-      school: "Jumeirah College",
+      school: "[School]",
       logo: "/JC-logo.png",
       title: "GCSEs",
       grades: ["Mathematics: A*", "Computer Science: A*", "Physics: A*", "Biology: A*", "Chemistry: A*", "Economics: A", "English Language: A", "English Literature: A", "History: B", "French: B"],
@@ -108,14 +88,14 @@ export const RESUME_DATA = {
   ],
   work: [
     {
-      company: "ImpactOS",
+      company: "Vetinary Clinic in Madrid",
       companyDescription: "AI platform turning messy ESG & social-value data into decision-grade, audit-ready metrics and reports",
-      animatedLogo: <ImpactOSLogo className="size-8 text-foreground" />,
+      animatedLogo: <PawPrint />,
       location: "London, UK",
       link: "https://www.impactos.tech/",
       liveWebsite: true,
       badges: ["Public Sector", "AI", "Data Management"],
-      title: "Founding Technical Lead",
+      title: "Consultant",
       start: "July 2025",
       end: "present",
       workType: "Remote",
@@ -141,15 +121,15 @@ export const RESUME_DATA = {
       ]
     },
     {
-      company: "Access Technologies",
+      company: "The Edition - Madrid (Marriott)",
       companyDescription: "Sport SaaS startup providing a platform for sports organizations to manage their operations and data",
-      animatedLogo: <AccessTechLogo className="size-5" />,
+      animatedLogo: <Hotel />,
       location: "Riyadh, Saudi Arabia",
       link: "https://www.accesstechnologies.co/",
       liveWebsite: true,
       badges: ["SportsTech", "B2B SaaS", "Partnerships & BD"],
       workType: "Remote",
-      title: "Co-Founder",
+      title: "Hostess",
       start: "2023",
       end: "2024 (Gap Year)",
       description: "‘Functionality without aesthetic sacrifice’. Specializing in full stack bespoke software solutions for residential compounds within the Kingdom of Saudi Arabia. At our core we believe that UI/UX shouldn't have to be sacrificed for functionality, instead we incorporate it into every aspect of our platforms to ensure the highest user experience.",
@@ -165,10 +145,10 @@ export const RESUME_DATA = {
       ]
     },
     {
-      company: "Fiera Capital - Real Estate",
+      company: "Vetinary Clinic - Milton Keynes",
       companyDescription: "UK real estate arm of Fiera Capital, a Canadian-based asset manager with $160 billion in AUM.",
       // logo: "https://github.com/evilrabbit.png",
-      logo: "/FieraRealEstateLogo.png",
+      animatedLogo: <PawPrint />,
       location: "London, UK",
       link: "https://www.fierarealestate.co.uk/",
       badges: ["Fintech Tools", "Fund Ops", "Data Insights"],
@@ -183,45 +163,6 @@ export const RESUME_DATA = {
         "Shadowed key team members to understand both the technical and financial aspects of fund management.",
         "Supported in developing and optimizing internal tools, observing the critical role of technology in daily operations.",
         "Enhanced knowledge of fintech’s impact on fund management, focusing on efficiency and strategic growth."        
-      ]
-    },
-    {
-      company: "Aston Martin F1",
-      companyDescription: "Aston Martin Lagonda's Formula 1 team",
-      animatedLogo: <AMF1Logo className="h-10 text-foreground" />,
-      location: "London, UK",
-      link: "https://www.astonmartinf1.com/en-GB",
-      badges: ["Web3 Strategy", "Market Research", "Digital Innovation"],
-      workType: "Hybrid (Remote/On Site)",
-      title: "Summer Internship",
-      start: "2022",
-      end: "",
-      description:
-        "Supported Aston Martin’s Web3 initiatives, working closely with the Managing Director to drive digital innovation within the high-performance world of Formula 1. This experience provided invaluable exposure to cutting-edge technology and strategic planning in a fast-paced, competitive environment.",
-      lineItems: [
-        "Collaborated with the Managing Director to develop research and presentations on Web3 strategies for senior executives.",
-        "Conducted in-depth analysis on Web3 digital trends impacting F1, enhancing understanding of the sport’s technical infrastructure.",
-        "Gained first-hand insights into innovation management and digital strategy within a high-stakes motorsport setting."
-      ]
-    },
-    {
-      company: "Create Group",
-      companyDescription: "A leading, MENA-focused, digital marketing agency",
-      logo: "/CreateGroupDark-Logo.jpeg",
-      location: "Dubai, UAE",
-      link: "https://creategroup.me/",
-      badges: ["Digital Strategy", "Client Decks", "Social Analytics"],
-      workType: "On Site",
-      title: "Summer Internship",
-      start: "2022",
-      end: "",
-      description:
-        "Assisted with Create Group's strategy and creative teams to drive digital marketing and content initiatives for leading clients across the Middle East. This internship offered practical experience in campaign planning and analytics, deepening my understanding of the UAE’s fast-evolving digital landscape.",
-      lineItems: [
-        "Contributed to digital marketing and content strategy meetings for major regional clients, tailoring approaches to the Middle Eastern market.",
-        "Supported presentations and reports to guide client decision-making, focusing on impactful storytelling and data-driven insights.",
-        "Gained hands-on experience in content strategy, social media analytics, and campaign planning.",
-        "Enhanced knowledge of regional marketing dynamics and the UAE’s digital ecosystem."
       ]
     }
   ],
